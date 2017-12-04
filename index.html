@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Shinobi Scuffle</title>
+
+	<!--Reset css link-->
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+    <!-- Bootstrap CDN -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!--css link-->
+    <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+
+</head>
+<body>
+
+	<!--JQuery library script-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+
+	<!--javascript file to run the game-->
+		<script type="text/javascript" src="Assets/javascript/game.js"></script>
+
+<!--Header-->
+<div class="container">
+
+	<div class="row">
+
+		<div class="col-xs-1"></div>
+
+		<h1 class="col-xs-10">Ninja Showdown!</h1>
+
+		<div class="col-xs-1"></div>
+
+	</div>
+
+
+<!--Choose your character-->
+
+
+<!--containers all the characters that can be choose from-->
+<div class="rowPlayers">
+
+	<div class="col-xs-2 naru"><img src="https://vignette.wikia.nocookie.net/naruto-bleach-korra-and-sonic/images/a/a6/Naruto_Uzumaki_-_Kurama_Link_Mode.png/revision/latest?cb=20150207150006">
+		<p>Naruto</p>
+	</div>
+
+	<div class="col-xs-2 sasu"><img src="http://vignette1.wikia.nocookie.net/adventuretimewithfinnandjake/images/7/7a/Sasuke_uchiha_by_strife_000-d5jpyh9.png/revision/latest?cb=20130125051621">
+		<p>Sasuke</p>	
+	</div>
+
+	<div class="col-xs-2 jira"><img src="https://lh3.googleusercontent.com/-McDMc_SrzGY/VoNgDpuzLBI/AAAAAAAAAG0/k9MoJoHOWQQ/s512-Ic42/jiraiya___sage_mode_by_deidara465_d422nd7_by_guilhermeuzumaki-d5yhex9.png">
+		<p>Jiraiya</p>	
+	</div>
+
+	<div class="col-xs-2 kaka"><img src="http://www.pngmart.com/files/4/Kakashi-PNG-Transparent-Image.png">
+		<p>Kakashi</p>	
+	</div>
+
+	<br>
+</div>
+
+	<div class="col-xs-12 playersChoice">Your Fighter: 
+		<p class="hpPlayersChoice"> </p>
+	</div>
+
+<!--Characters that the player did not choose-->
+<div class="row">
+	<div class="col-xs-12 enemies">
+		Remaining Ninjas: 
+			<br><br>
+	</div>
+
+<!--Attack power of the character you choose-->
+	<div class="col-xs-2 attackButton">
+		<button type="button" class="btn btn-danger btn-lg">Strike:</button>
+	</div>
+	<div class="col-xs-2"></div>
+</div>
+
+<!--Contains the character you choose to attack / counter attack power-->
+<div class="row">
+	<div class="col-xs-12 choiceToAttack">Defender: 
+		<p class="hpEnemyChoice"> </p>
+	</div>
+</div>
+
+<!-- container div-->
+</div>
+
+
+
+</body>
+</html>

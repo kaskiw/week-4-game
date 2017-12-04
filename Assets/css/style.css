@@ -1,0 +1,24 @@
+body {
+	background: url(https://vignette.wikia.nocookie.net/narutofanon/images/6/6b/Konoha.jpg/revision/latest?cb=20101105184854);
+	background-repeat: no-repeat;
+	background-size: 100% 120%;
+}
+h1 {
+	color: red;
+	text-align: center;
+	border-color: red;
+	border-style: double; 
+	border-width: 2px;
+}
+img {
+	width: 50%;
+}
+
+.one, .two, .three, .four {
+	font-size: 30px;
+	color: red;
+}
+.playersChoice, .enemies, .choiceToAttack {
+	font-size: 30px;
+	color: red;
+}
